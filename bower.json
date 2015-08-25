@@ -1,12 +1,11 @@
 {
-  "name": "tmbr-common",
-  "version": "0.1",
-  "homepage": "http://wearetmbr.com",
+  "name": "tmbr-clean-slate",
+  "version": "0.1.0",
+  "homepage": "http://wearetmbr.com/",
   "authors": [
-    "Andrew Martin <andrew@believelabs.com>",
     "Matt Richmond <mrichmond@wearetmbr.com>"
   ],
-  "description": "TMBR Common Libraries",
+  "description": "TMBR Front-End Resources for Clean Slate.",
   "license": "MIT",
   "private": true,
   "ignore": [
