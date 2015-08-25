@@ -13,5 +13,7 @@
 	</div>
 </footer><!-- #colophon -->
 
+<?php footer_assets(); ?>
+
 </body>
 </html>
