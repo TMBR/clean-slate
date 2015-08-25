@@ -1,1 +1,9 @@
-See the [Wiki](https://github.com/TMBR/clean-slate/wiki) for how to use this starter theme.
+# Clean Slate
+
+A bare-bones, straight-PHP, lean-and-clean website framework.
+
+## TODO
+
+- Document Usage
+- Prune out stylesheets and scripts not needed
+- Move JS to AMD require compatible code
