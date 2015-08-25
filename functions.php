@@ -1,6 +1,7 @@
 <?php
+// Filesystem Path to the root of site
+define('ROOT_PATH', dirname(__FILE__));
 
-// Load a template with localized data
 /**
  * Requires a file relative to the current webroot.  It also allows you
  * to pass an associative array of information to the template.
@@ -10,5 +11,8 @@
  */
 function get_template($file, $data = array()) {
   extract( $data );
-  require dirname(__FILE__) . '/' . $file;
+  require ROOT_PATH . '/' . $file;
 }
+
+get_template('inc/helpers.php');
+get_template('inc/assets.php');
