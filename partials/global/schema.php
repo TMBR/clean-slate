@@ -11,8 +11,8 @@
     <span itemprop="streetAddress">125 Scott LN, Suite 2</span><br/>
     <span itemprop="addressLocality">Jackson</span>,
     <span itemprop="addressRegion">WY</span><br/>
-    <span itemprop="addressCountry">83002</span></br/>
-    <span itemprop="postalCode"><?php echo $zip; ?></span>
+    <span itemprop="addressCountry">US</span></br/>
+    <span itemprop="postalCode">83002</span>
   </div><!-- /address -->
 </div><!-- /schema.org -->
 
