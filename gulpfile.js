@@ -30,10 +30,10 @@
       'assets/vendor/twbs-bootstrap-sass/assets/javascripts/bootstrap.js',
 
       // Flexslider things for video
-      'assets/vendor/flexslider/jquery.flexslider.js',
+      //'assets/vendor/flexslider/jquery.flexslider.js',
 
       // Misc Vendor Libraries
-      'assets/vendor/jquery.easing/js/jquery.easing.js',
+      // 'assets/vendor/jquery.easing/js/jquery.easing.js',
 
       // Pace Loading animation
       // 'assets/vendor/pace/pace.js',
@@ -48,13 +48,13 @@
       // 'assets/vendor/isotope/jquery.isotope.js',
 
       // Magnificent popups
-      //'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js'
+      'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js'
 
       // Parallax background images
       // 'assets/vendor/jquery.stellar/jquery.stellar.js',
 
       // Lazy Load Assets unveil
-      'assets/vendor/jquery-unveil/jquery.unveil.js'
+      // 'assets/vendor/jquery-unveil/jquery.unveil.js'
     ],
     appScripts: [
       // You can keep your JS tidy in its own file for a specific feature.
