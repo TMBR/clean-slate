@@ -1,0 +1,29 @@
+.panel {
+
+	.panel-heading {
+	    border-bottom: 1px solid transparent;
+	    padding: 0;
+	    position: relative;
+	}
+	.panel-heading {
+	    border-bottom: 1px solid transparent;
+	    border-top-left-radius: 3px;
+	    border-top-right-radius: 3px;
+	    padding: 20px 30px;
+	}
+
+	&.panel-bordered {
+		.panel-heading {
+    		border-bottom: 1px solid #e4eaec;
+		}
+	}
+
+	.panel-actions {
+	    margin: auto;
+	    position: absolute;
+	    right: 30px;
+	    top: 50%;
+	    @include transform(translate(0px, -50%));
+	    z-index: 1;
+	}
+}

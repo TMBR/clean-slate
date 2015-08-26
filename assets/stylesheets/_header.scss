@@ -2,4 +2,9 @@
 /* NAVIGATION */
 .navbar {
 	margin-bottom: 0px;
+
+	.navbar-brand {
+		width : $side-width;
+		background-color: $action-color;
+	}
 }

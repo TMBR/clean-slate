@@ -1,23 +1,33 @@
+/* Animation */
 $transition300:   all 300ms ease-in-out;
 $transition200:   all 200ms ease-in-out;
 
-$menu-height : 80px;
-$mobile-menu-height : 50px;
+/* Size */
+$menu-height : 50px;
+$mobile-menu-height : 40px;
+$side-width : 260px;
 
 /* COLORS */
-
-$white: #FFF;
-$black : #000;
-$blue: #2E9FFF;
-$gray: #797979;
-
-$orange: #c76c14;
-$beige : #e9e9de;
-$tan : #f5f4e6;
-$drk-green : #4b431f;
+$action-color : #f96868;
+$link-color : #f96868;
+$heading-color : #37474f;
+$text-color : #76838f;
+$border-color : #e7e7e7;
 
 /* FONT FAMILIES */
-$proxima: 'proxima-nova', sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@mixin questrial($weight: 400) {
+	font-family: 'Questrial', sans-serif;
+	font-style: normal;
+	font-weight: $weight;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,700);
+@mixin raleway($weight: 400) {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: $weight;
+}
 
 /* FONT SIZES */
 $h1: 4em;
