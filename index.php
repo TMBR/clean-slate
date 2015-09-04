@@ -36,6 +36,10 @@ get_template('header.php', array('title' => 'Landing Page'));
 
 				<div class="container-fluid">
 					<div class="row">
+
+						<?php
+						// User Profile
+						get_template('partials/panels/panel_profile.php'); ?>
 						<?php
 						// Panel with drop down
 						get_template('partials/panels/panel_dropdown.php'); ?>
