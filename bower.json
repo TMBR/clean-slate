@@ -33,7 +33,8 @@
     "animate-css": "~3.2.3",
     "FlexSlider": "git://github.com/woothemes/FlexSlider.git#version/2.3.0",
     "magnific-popup": "*",
-    "countUp.js": "*"
+    "countUp.js": "*",
+    "Chart.js": "*"
   },
   "resolutions": {
     "jquery": "~2.1.0"
