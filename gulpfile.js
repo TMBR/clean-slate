@@ -57,7 +57,9 @@
       // 'assets/vendor/jquery-unveil/jquery.unveil.js'
 
       // Lazy Load Assets unveil
-      'assets/vendor/countUp.js/countUp.js'
+      'assets/vendor/countUp.js/countUp.js',
+      // chart.js
+      'assets/vendor/Chart.js/Chart.js'
 
     ],
     appScripts: [

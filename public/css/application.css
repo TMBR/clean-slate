@@ -11937,6 +11937,19 @@ body.mobile .wow {
 #user-profile #profile-image img {
   width: 100%; }
 
+/* Chart style */
+#linelegend {
+  width: 440px;
+  margin: 0px; }
+  #linelegend li {
+    list-style: none;
+    width: 200px;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 5px;
+    float: left;
+    color: #fff; }
+
 /* entire container, keeps perspective */
 .badge-container {
   perspective: 1000;
