@@ -48,13 +48,17 @@
       // 'assets/vendor/isotope/jquery.isotope.js',
 
       // Magnificent popups
-      'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js'
+      'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js',
 
       // Parallax background images
       // 'assets/vendor/jquery.stellar/jquery.stellar.js',
 
       // Lazy Load Assets unveil
       // 'assets/vendor/jquery-unveil/jquery.unveil.js'
+
+      // Lazy Load Assets unveil
+      'assets/vendor/countUp.js/countUp.js'
+
     ],
     appScripts: [
       // You can keep your JS tidy in its own file for a specific feature.

@@ -8,9 +8,7 @@ var ismobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
 	/* MODULES SET UP
 	-----------------*/
 
-	// Set up Sliders
-	 Slider.init();
-
+	Sidenav.init();
 
 	if(ismobile == true){
 		$('body').addClass('mobile');

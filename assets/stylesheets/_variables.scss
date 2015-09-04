@@ -1,18 +1,28 @@
 /* Animation */
+$transition400:   all 400ms ease-in-out;
 $transition300:   all 300ms ease-in-out;
 $transition200:   all 200ms ease-in-out;
 
 /* Size */
-$menu-height : 50px;
+$menu-height : 60px;
 $mobile-menu-height : 40px;
 $side-width : 260px;
 
 /* COLORS */
-$action-color : #f96868;
+$action-color : #bf2c37;
 $link-color : #f96868;
 $heading-color : #37474f;
 $text-color : #76838f;
 $border-color : #e7e7e7;
+
+$top-nav-background : #333;
+$top-nav-link : #fff;
+
+$side-nav-link : rgba(163, 175, 183, 0.9);
+$side-nav-background :  #444;
+
+$increase : #bbe300;
+$decrease : #c30;
 
 /* FONT FAMILIES */
 @import url(http://fonts.googleapis.com/css?family=Questrial);
@@ -28,6 +38,13 @@ $border-color : #e7e7e7;
 	font-style: normal;
 	font-weight: $weight;
 }
+
+@mixin helvetica($weight: 400) {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: $weight;
+}
+
 
 /* FONT SIZES */
 $h1: 4em;

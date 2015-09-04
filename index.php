@@ -44,6 +44,14 @@ get_template('header.php', array('title' => 'Landing Page'));
 						// Panel with data set
 						get_template('partials/loops/people-loop.php', $data); ?>
 
+						<?php
+						// Panel with Badges
+						get_template('partials/panels/panel_badge.php'); ?>
+
+						<?php
+						// Friends List
+						get_template('partials/panels/panel_table.php'); ?>
+
 		    		</div> <!-- / row -->
 				</div><!-- /container -->
 

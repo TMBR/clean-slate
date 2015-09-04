@@ -2,9 +2,44 @@
 /* NAVIGATION */
 .navbar {
 	margin-bottom: 0px;
+	border-bottom: 1px solid $border-color;
+	color: text-color;
+	background: $top-nav-background;
+
+	li {
+		a {
+			color: $top-nav-link;
+			padding: 0 20px !important;
+			height: $menu-height;
+			line-height: $menu-height;
+			display: block;
+			font-size: 1.5rem;
+			text-transform: uppercase;
+		}
+	}
 
 	.navbar-brand {
 		width : $side-width;
 		background-color: $action-color;
+		color: $text-color;
+		padding: 8px 0;
+		height: $menu-height;
+		line-height: $menu-height;
+
+		img {
+			height: 100%;
+			margin: 0 auto;
+		}
+	}
+
+	.navbar-toggle {
+		border: none;
+		padding: 0px;
+		margin: 0 20px 0 0;
+		height: $menu-height;
+		line-height: $menu-height;
+		.icon-bar {
+			background-color: #fff;
+		}
 	}
 }

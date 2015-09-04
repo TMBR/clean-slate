@@ -2,7 +2,7 @@
 body {
 	color: $text-color;
 	overflow-x: hidden;
-	@include questrial();
+	@include helvetica();
 }
 
 
@@ -71,6 +71,9 @@ input[type=submit] {
 	@extend .btn;
 }
 ======================== */
+.increase { color : $increase;}
+.decrease { color : $decrease;}
+
 .btn {
 	display: inline-block;
 	text-transform: uppercase;
@@ -84,10 +87,28 @@ input[type=submit] {
 
 #main {
 	background: #f1f4f5;
-    min-height: calc(100vh - 44px);
+    min-height: calc(100vh - 60px);
     position: relative;
     margin-left: $side-width;
     top : $menu-height;
-    padding: 10px;
+    padding: 30px 15px;
+    z-index: 1050;
 
+    @include respond-to($screen-xs) {
+    	margin-left: 0px;
+    	padding: 15px 0px;
+
+    }
+
+
+
+}
+
+.big-number {
+	font-size: 5em;
+	font-weight: 600;
+
+	i {
+		margin-left: 20px;
+	}
 }

@@ -1,10 +1,67 @@
 #slide-nav {
 	width: $side-width;
-	background: #263238 ;
+	background: $side-nav-background ;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
     color: rgba(163, 175, 183, 0.9);
     height: calc(100vh - 50px);
     position: fixed;
-    z-index: 1400;
+    z-index: 1040;
     top : $menu-height;
+
+    #accordion {
+
+    	.panel-heading,
+    	.panel,
+    	.panel-body {
+    		background: transparent;
+    		border: none;
+    			@include border-radius(0);
+
+    		a {
+    			color: $side-nav-link;
+    		}
+    	}
+    	.panel-heading {
+    		padding: 0px;
+
+    		h4 {
+    			a {
+    				display: block;
+    				width: 100%;
+    				padding: 15px;
+
+	    			&:after {
+					    content: "\f107";
+					    float: right;
+					    font-family: FontAwesome;
+					    font-weight: normal;
+					    font-size: 2rem;
+					    @include transition($transition200);
+	    			}
+	    			&.collapsed:after {
+	    				@include transform(rotate(-90deg));
+	    			}
+    			}
+    		}
+    	}
+    	.panel-body {
+    		padding: 0px;
+    		background-color: lighten( $side-nav-background, 5% );
+
+    		table {
+    			margin: 0px;
+    		}
+    		td {
+    			padding: 10px 30px;
+    			border-top : 1px solid darken( $side-nav-background, 10% );
+    		}
+    	}
+    	.table > thead > tr > th,
+    	.table > thead > tr > td,
+    	.table > tbody > tr > th,
+    	.table > tbody > tr > td,
+    	.table > tfoot > tr > th,
+    	.table > tfoot > tr > td {
+    	}
+    }
 }
