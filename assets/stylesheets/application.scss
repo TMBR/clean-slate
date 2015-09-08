@@ -1,5 +1,5 @@
-// Core variables and mixins
-@import "../vendor/twbs-bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// Contains all the individual bootstrap includes
+@import "bootstrap.scss";
 
 // Fonts - #### have to copy fonts to public folder
 @import '../vendor/font-awesome/scss/font-awesome';
