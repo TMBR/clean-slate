@@ -204,6 +204,13 @@ var ismobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
 	// DOC Ready
 	$(function() {
 
+		// Toggle Side Navigation
+		$('#nav-slider').on('click','', function( e ){
+			$(this).toggleClass('closed');
+			$('#main').toggleClass('open-sidenav');
+		});
+
+
 		/* SMOTH SCROLL TO ANCHOR TAGS */
 		/*
 		$('a[href*=#]:not([href=#])').on('click','', function( e ){
