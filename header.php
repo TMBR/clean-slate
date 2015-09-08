@@ -5,8 +5,6 @@
     <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
     <title><?php echo $title; ?></title>
     <?php header_assets(); ?>
-    <?php footer_assets(); ?>
-
   </head>
 <body class="">
 
