@@ -1,10 +1,20 @@
 
 /* NAVIGATION */
+
+#nav-slider {
+	color: $top-nav-link;
+	font-size: 2.5em;
+	line-height: $menu-height;
+	float: right;
+	cursor: pointer;
+}
 .navbar {
 	margin-bottom: 0px;
-	border-bottom: 1px solid $border-color;
+	border: none;
 	color: text-color;
 	background: $top-nav-background;
+	z-index: 1060;
+
 
 	li {
 		a {
@@ -41,5 +51,12 @@
 		.icon-bar {
 			background-color: #fff;
 		}
+	}
+}
+
+@include respond-to($screen-md) {
+
+	.navbar-header {
+		width: 100%
 	}
 }

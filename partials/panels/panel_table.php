@@ -25,42 +25,51 @@
         <table class="table">
           <thead>
             <tr>
-              <th>#</th>
-              <th>Table heading</th>
-              <th>Table heading</th>
-              <th>Table heading</th>
-              <th>Table heading</th>
-              <th>Table heading</th>
-              <th>Table heading</th>
+              <th># Rank</th>
+              <th>Name</th>
+              <th>Vertical</th>
+              <th>Days</th>
+              <th>Goals</th>
+              <th>Badges</th>
+              <th>Lifts</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
+              <td>
+                <img class="profile-img round" src="/public/images/profile.jpg" alt="name" />
+                John Doe
+              </td>
+              <td>23,464</td>
+              <td>84</td>
+              <td>55</td>
+              <td>11</td>
+              <td>11</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
+              <td>
+                <img class="profile-img round" src="/public/images/profile.jpg" alt="name" />
+                John Doe
+              </td>
+              <td>23,464</td>
+              <td>84</td>
+              <td>55</td>
+              <td>11</td>
+              <td>11</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
+              <td>
+                <img class="profile-img round" src="/public/images/profile.jpg" alt="name" />
+                John Doe
+              </td>
+              <td>23,464</td>
+              <td>84</td>
+              <td>55</td>
+              <td>11</td>
+              <td>11</td>
             </tr>
           </tbody>
         </table>
