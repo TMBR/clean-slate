@@ -25,7 +25,7 @@ function footer_assets() {
 function asset_path($target) {
 	$path = '/public/' . $target;
 	if ( is_production() ) {
-		$path =. '/dashboard/';
+		$path = '/dashboard/' . $path;
 	}
 	return $path;
 }
