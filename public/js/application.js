@@ -1,6 +1,6 @@
 (function($){
   $(function(){
-    var data = {
+    var linearChartData = {
       labels: ["January", "February", "March", "April", "May", "June", "July"],
       datasets: [
         {
@@ -26,7 +26,7 @@
       ]
     };
 
-    var options = {
+    var linearChartOptions = {
       ///Boolean - Whether grid lines are shown across the chart
       scaleShowGridLines : true,
 
@@ -49,18 +49,17 @@
 
     };
 
-    var ctx = document.getElementById("lineChart").getContext("2d");
-    var myLineChart = new Chart(ctx).Line(data, options);
+    var lineChartElem = document.getElementById("lineChart").getContext("2d");
+    var myLineChart = new Chart(lineChartElem).Line(linearChartData, linearChartOptions);
 
-    var legend = document.getElementById("linelegend");
-    legend.innerHTML = myLineChart.generateLegend();
+    var barChartElem = document.getElementById("barChart").getContext("2d");
+    var myBarChart = new Chart(barChartElem).Bar(linearChartData, linearChartOptions);
 
-    var ctx = document.getElementById("barChart").getContext("2d");
-    var myBarChart = new Chart(ctx).Bar(data, options);
+    var legendElem = document.getElementById("linelegend");
+    legendElem.innerHTML = myLineChart.generateLegend();
 
 
-
-    var data = [
+    var doughnutData = [
       {
         value: 300,
         color:"#F7464A",
@@ -81,8 +80,8 @@
       }
     ]
 
-    var ctx = document.getElementById("doughnutChart").getContext("2d");
-    var myDoughnutChart = new Chart(ctx).Doughnut(data);
+    var doughnutChartElem = document.getElementById("doughnutChart").getContext("2d");
+    var myDoughnutChart = new Chart(doughnutChartElem).Doughnut(doughnutData);
   })
 })(jQuery);
 jQuery(function($) {
