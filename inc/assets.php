@@ -10,12 +10,14 @@ function header_assets() {
 }
 
 function footer_assets() {
-	$vendorscript_path = is_production()
-			? asset_path_revved('js/vendor.min.js')
-			: asset_path('js/vendor.js');
-	$appscript_path = is_production()
-			? asset_path_revved('js/application.min.js')
-			: asset_path('js/application.js');
+	// $vendorscript_path = is_production()
+	// 		? asset_path_revved('js/vendor.min.js')
+	// 		: asset_path('js/vendor.js');
+	// $appscript_path = is_production()
+	// 		? asset_path_revved('js/application.min.js')
+	// 		: asset_path('js/application.js');
+	$vendorscript_path = asset_path('js/vendor.js');
+	$appscript_path = asset_path('js/application.js');
 	?>
 	<script type='text/javascript' src="<?php echo $vendorscript_path; ?>"></script>
 	<script type='text/javascript' src="<?php echo $appscript_path; ?>"></script>
