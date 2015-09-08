@@ -25,7 +25,7 @@ function footer_assets() {
 function asset_path($target) {
 	$path = '/public/' . $target;
 	if ( is_production() ) {
-		$path = '/dashboard/' . $path;
+		$path = '/dashboard' . $path;
 	}
 	return $path;
 }
@@ -36,7 +36,11 @@ function asset_path_revved($target) {
 	$scripts = file_get_contents(ROOT_PATH . '/public/rev-manifest.json');
 	$scripts = json_decode($scripts);
 	if ( isset( $scripts->{$target} ) ) {
-		return '/public/' . $scripts->{$target};
+		$path = '/public/' . $scripts->{$target};
+		if ( is_production() ) {
+			$path = '/dashboard' . $path;
+		}
+		return $path;
 	}
 	return $target . ' :: file-not-found-in-public-dir';
 }
