@@ -23,7 +23,11 @@ function footer_assets() {
 }
 
 function asset_path($target) {
-	return '/public/' . $target;
+	$path = '/public/' . $target;
+	if ( is_production() ) {
+		$path =. '/dashboard/';
+	}
+	return $path;
 }
 
 // asset revving for serving up hashed files
