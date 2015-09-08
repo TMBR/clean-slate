@@ -8,18 +8,18 @@
     <div class="panel-body">
       <div class="row">
 
-        <div id="profile-image" class="col-xs-6 col-sm-6 col-md-3">
+        <div id="profile-image" class="col-xs-6 col-sm-3">
             <img src="/public/images/profile.jpg" alt="name" />
         </div>
 
-        <div id="user-info" class="col-xs-6 col-sm-6 col-md-3">
+        <div id="user-info" class="col-xs-6 col-sm-3">
           <h4>Travis Rice </h4>
           <p>@Trice </p>
           <p>Last Active : Apr-12, 2016 </p>
           <p>Goal Progress: 52 of 80 </p>
         </div>
 
-        <div id="stats" class="col-sm-12 col-md-6">
+        <div id="stats" class="col-sm-6">
           <div class="row">
 
             <div class="col-xs-4">
