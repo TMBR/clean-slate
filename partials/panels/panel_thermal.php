@@ -20,7 +20,7 @@
         <div id="thermal-map" class="col-xs-12">
 
           <?php
-
+          $j = 0;
           while ( $j <= 4) { ?>
             <h6>
                <?php
@@ -40,7 +40,9 @@
                    case 4:
                          echo "Mar";
                          break;
-                } ?>
+                }
+                  $i = 0;
+                ?>
             </h6>
             <?php  while ( $i <= 30) { ?>
                 <div class="thermal-day
@@ -68,7 +70,7 @@
                   ?>
                 </div>
             <?php  } ?>
-          <?php $i = 0; $j++; } ?>
+          <?php $j++; } ?>
 
         </div> <!-- / end thermal-map -->
 
