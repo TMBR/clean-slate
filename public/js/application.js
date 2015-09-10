@@ -97,44 +97,6 @@ jQuery(function($) {
     });
 });
 
-var Sidenav = (function($) {
-	var sidenav = {
-		init : function() {
-
-			$(document).ready(function() {
-
-
-			});
-
-		}
-	}
-	return sidenav;
-})(jQuery);
-var Slider = (function($) {
-	var slider = {
-		init : function() {
-
-			$(document).ready(function() {
-
-			  $('#home_slider').flexslider({
-			    animation: "slide",
-			    slideshow: false, // auto play on load
-			    slideshowSpeed: 4000,
-				animationSpeed: 600,
-				pauseOnHover: true,
-				controlNav: true, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
-				directionNav: true, //Boolean: Create navigation for previous/next navigation? (true/false)
-				prevText: "Previous",
-				nextText: "Next"
-			  });
-
-			});
-
-		}
-	}
-	return slider;
-})(jQuery);
-
 // Credit goes to [Underscore.js](http://underscorejs.org/)
 
 /**
@@ -192,24 +154,15 @@ var ismobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
 	/* MODULES SET UP
 	-----------------*/
 
-	Sidenav.init();
-
 	if(ismobile == true){
 		$('body').addClass('mobile');
 	} else {
 		// non mobile actions
-		// new WOW().init();
+
 	}
 
 	// DOC Ready
 	$(function() {
-
-		// Toggle Side Navigation
-		$('#nav-slider').on('click','', function( e ){
-			$(this).toggleClass('closed');
-			$('#main').toggleClass('open-sidenav');
-		});
-
 
 		/* SMOTH SCROLL TO ANCHOR TAGS */
 		/*
