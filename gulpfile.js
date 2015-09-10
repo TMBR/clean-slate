@@ -27,34 +27,9 @@
       'assets/vendor/jquery/dist/jquery.js',
 
       // Bootstrap JS files
-      'assets/vendor/twbs-bootstrap-sass/assets/javascripts/bootstrap.js',
-
-      // Flexslider things for video
-      //'assets/vendor/flexslider/jquery.flexslider.js',
-
-      // Misc Vendor Libraries
-      // 'assets/vendor/jquery.easing/js/jquery.easing.js',
-
-      // Pace Loading animation
-      // 'assets/vendor/pace/pace.js',
-
-      // WOW depends on animate.css - animate asset loading
-      'assets/vendor/wow/dist/wow.js',
-
-      // Video .JS
-      // 'assets/vendor/videojs/dist/video-js/video.js',
-
-      // Isotope Grid
-      // 'assets/vendor/isotope/jquery.isotope.js',
-
-      // Magnificent popups
-      'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js',
-
-      // Parallax background images
-      // 'assets/vendor/jquery.stellar/jquery.stellar.js',
-
-      // Lazy Load Assets unveil
-      // 'assets/vendor/jquery-unveil/jquery.unveil.js'
+      'assets/vendor/twbs-bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
+      'assets/vendor/twbs-bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+      'assets/vendor/twbs-bootstrap-sass/assets/javascripts/bootstrap/transition.js',
 
       // Lazy Load Assets unveil
       'assets/vendor/countUp.js/countUp.js',

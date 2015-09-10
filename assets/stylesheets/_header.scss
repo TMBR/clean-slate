@@ -15,9 +15,13 @@
 	background: $top-nav-background;
 	z-index: 1060;
 
+	.container-fluid {
+			max-width: $screen-md;
+	}
 
-	li {
-		a {
+
+
+	ul:first-child li a {
 			color: $top-nav-link;
 			padding: 0 20px !important;
 			height: $menu-height;
@@ -25,7 +29,6 @@
 			display: block;
 			font-size: 1.5rem;
 			text-transform: uppercase;
-		}
 	}
 
 	.navbar-brand {

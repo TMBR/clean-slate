@@ -92,23 +92,20 @@ input[type=submit] {
 	background: #f1f4f5;
     min-height: calc(100vh - 60px);
     position: relative;
-    margin-left: $side-width;
-    top : $menu-height;
+    margin: $menu-height auto 0 auto;
+    max-width: $screen-md;
     padding: 30px 15px;
     z-index: 1050;
-    @include transition($transition300);
-
-    &.open-sidenav {
-    	@include translate($side-width, 0);
-    }
 
     @include respond-to($screen-md) {
-    	margin-left: 0px;
     	padding: 15px 0px;
-
     }
 }
 
+#primary {
+	background-color: #000;
+	position: relative;
+}
 /* Global Number style */
 .big-number {
 	font-size: 5em;

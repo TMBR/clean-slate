@@ -41,27 +41,7 @@ get_template('header.php', array('title' => 'Landing Page'));
 
 						<?php
 						// User Profile
-						get_template('partials/panels/panel_profile.php'); ?>
-						<?php
-						// Panel with drop down
-						get_template('partials/panels/panel_dropdown.php'); ?>
-
-						<?php
-						// Panel with data set
-						get_template('partials/loops/people-loop.php', $data); ?>
-
-						<?php
-						// Panel with Badges
-						get_template('partials/panels/panel_badge.php'); ?>
-
-						<?php
-						// Friends List
-						get_template('partials/panels/panel_table.php'); ?>
-
-
-						<?php
-						// Charts
-						get_template('partials/panels/panel_charts.php'); ?>
+						get_template('partials/account/login.php'); ?>
 
 		    		</div> <!-- / row -->
 				</div><!-- /container -->

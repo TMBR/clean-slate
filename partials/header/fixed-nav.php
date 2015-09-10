@@ -3,7 +3,7 @@
   <div class="container-fluid">
 
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/dashboard/">
         <img src="assets/images/Whistler_Blackcomb.svg" alt="" />
       </a>
       <i id="nav-slider" class="fa fa-bars hidden-lg"></i>
@@ -11,7 +11,7 @@
 
     <div id="navbar" class="visible-lg">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="/dashboard/">Home</a></li>
         <li><a href="#about">Leaderboard</a></li>
         <li><a href="#contact">Groups</a></li>
         <li><a href="#contact">Friends</a></li>

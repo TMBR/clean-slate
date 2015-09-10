@@ -8,24 +8,15 @@ var ismobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
 	/* MODULES SET UP
 	-----------------*/
 
-	Sidenav.init();
-
 	if(ismobile == true){
 		$('body').addClass('mobile');
 	} else {
 		// non mobile actions
-		// new WOW().init();
+
 	}
 
 	// DOC Ready
 	$(function() {
-
-		// Toggle Side Navigation
-		$('#nav-slider').on('click','', function( e ){
-			$(this).toggleClass('closed');
-			$('#main').toggleClass('open-sidenav');
-		});
-
 
 		/* SMOTH SCROLL TO ANCHOR TAGS */
 		/*
