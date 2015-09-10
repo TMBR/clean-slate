@@ -1,21 +1,21 @@
-# Clean Slate
+# Vert Admin
 
-A bare-bones, straight-PHP, lean-and-clean website framework.  Utilizes Bower and Gulp for compiling assets - ensuring the fewest amount of assets reasonably possible.
+Utilizes Bower and Gulp for compiling assets - ensuring the fewest amount of assets reasonably possible.
 
-## TODO
+## Installing Dependencys
+- cd to active project html folder
+- run `npm install`
+- run `bower install`
 
-- Document Usage
-- Prune out stylesheets and scripts not needed
-- Move JS to AMD require compatible code
+## Build
+- run `gulp`
 
-## Usage
+#### Installing Node / Bower / Gulp
+There are a couple very basic items you need locally.
 
-### Gulp
+Run the following commands from anywhere in your terminal to get the items installed.
 
-#### Installing Gulp
-
-### Bower
-
-#### Installing Bower
-
-### Template Loading
+1. Install [homebrew](http://brew.sh/#install)
+2. `brew install node`
+3. `npm install -g gulp`
+4. `npm install -g bower`

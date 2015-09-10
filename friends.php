@@ -6,28 +6,23 @@ get_template('header.php', array('title' => 'Landing Page'));
 ?>
 
 <div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 
-			<?php
-			//get_template('sidebar.php');
-			?>
+		<div class="container-fluid">
+			<div class="row">
 
-			<main id="main" class="site-main" role="main">
+				<?php
+				// Friends
+				$i = 0;
+				while ( $i <= 6) {
+					get_template('partials/panels/panel_friends.php');
+					$i++;
+				} ?>
 
-				<div class="container-fluid">
-					<div class="row">
+			</div> <!-- / row -->
+		</div><!-- /container -->
 
-						<?php
-						// groups
-						while ( $i <= 6) {
-							get_template('partials/panels/panel_friends.php');
-							$i++;
-						} ?>
-
-		    		</div> <!-- / row -->
-				</div><!-- /container -->
-
-			</main>
-
+	</main>
 </div><!-- #primary -->
 
 <?php
