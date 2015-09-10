@@ -1,16 +1,12 @@
 // Contains all the individual bootstrap includes
-@import "bootstrap.scss";
+@import "bootstrap";
 
-// Fonts - #### have to copy fonts to public folder
+// Icon Fonts
 @import '../vendor/font-awesome/scss/font-awesome';
-
-
 
 // Themestyle
 @import "variables";
 @import "mixins";
-
-@import "vendor-fix";
 
 @import "layout";
 @import "tables";

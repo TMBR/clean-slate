@@ -1,8 +1,6 @@
 // Mobile device detection
 var ismobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
 
-
-
 (function($) {
 
 	/* MODULES SET UP
@@ -18,26 +16,6 @@ var ismobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
 	// DOC Ready
 	$(function() {
 
-		/* SMOTH SCROLL TO ANCHOR TAGS */
-		/*
-		$('a[href*=#]:not([href=#])').on('click','', function( e ){
-		      e.preventDefault();
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-		        || location.hostname == this.hostname) {
-
-		        var target = $(this.hash);
-		        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		           if (target.length) {
-		             $('html,body').animate(
-		                {scrollTop: target.offset().top},
-		                {duration: 600, easing:'easeOutCubic'});
-		            return false;
-		        }
-		    }
-		});
-		*/
-
-
 	}); // END Doc Ready
 
 	/* load === all images, scripts, etc. complete before function runs */
@@ -46,7 +24,6 @@ var ismobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
 	  // $("#site-wrapper").animate({"opacity": "1"}, 1000);
 
 	}); // END window .load
-
 
 	var throttleTimeOut = 50; //milliseconds before triggering function again
 	// Window Scroll functions

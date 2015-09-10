@@ -25,20 +25,6 @@ $increase : #bbe300;
 $decrease : #c30;
 
 /* FONT FAMILIES */
-@import url(http://fonts.googleapis.com/css?family=Questrial);
-@mixin questrial($weight: 400) {
-	font-family: 'Questrial', sans-serif;
-	font-style: normal;
-	font-weight: $weight;
-}
-
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,700);
-@mixin raleway($weight: 400) {
-	font-family: 'Raleway', sans-serif;
-	font-style: normal;
-	font-weight: $weight;
-}
-
 @mixin helvetica($weight: 400) {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-style: normal;
@@ -72,8 +58,6 @@ $decrease : #c30;
 	font-style: normal;
 	font-weight: $weight;
 }
-
-
 
 
 /* FONT SIZES */
