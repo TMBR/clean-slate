@@ -21,14 +21,44 @@
 
 
 
-	ul:first-child li a {
-			color: $top-nav-link;
-			padding: 0 20px !important;
-			height: $menu-height;
-			line-height: $menu-height;
-			display: block;
-			font-size: 1.5rem;
-			text-transform: uppercase;
+	ul li {
+
+		&.active a {
+			background : #f1f4f5;
+			color: $text-color;
+		}
+
+			a {
+				color: $top-nav-link;
+				padding: 0 20px !important;
+				height: $menu-height;
+				line-height: $menu-height;
+				display: block;
+				font-size: 1.5rem;
+				text-transform: uppercase;
+
+				&:hover,
+				&:focus{
+					background : #f1f4f5;
+					color: $text-color;
+			}
+		}
+
+		ul li a {
+				color: $text-color;
+				padding: 0 10px !important;
+				height: 30px;
+				line-height: 30px;
+				display: block;
+				font-size: 1.2rem;
+				text-transform: uppercase;
+
+				&:hover,
+				&:focus{
+					background : #fff;
+					color: $text-color;
+				}
+		}
 	}
 
 	.navbar-brand {

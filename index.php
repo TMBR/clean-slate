@@ -58,6 +58,10 @@ get_template('header.php', array('title' => 'Landing Page'));
 						// Friends List
 						get_template('partials/panels/panel_table.php'); ?>
 
+						<?php
+						// Thermal map
+						get_template('partials/panels/panel_thermal.php'); ?>
+
 
 						<?php
 						// Charts

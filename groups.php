@@ -17,8 +17,11 @@ get_template('header.php', array('title' => 'Landing Page'));
 					<div class="row">
 
 						<?php
-						// User Profile - register
-						get_template('partials/account/register.php'); ?>
+						// groups
+						while ( $i <= 6) {
+							get_template('partials/panels/panel_groups.php');
+							$i++;
+						} ?>
 
 		    		</div> <!-- / row -->
 				</div><!-- /container -->

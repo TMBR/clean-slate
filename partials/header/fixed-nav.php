@@ -1,19 +1,26 @@
-<!-- Fixed navbar -->
 <nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
 
     <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
       <a class="navbar-brand" href="/dashboard/">
         <img src="assets/images/Whistler_Blackcomb.svg" alt="" />
       </a>
-      <i id="nav-slider" class="fa fa-bars hidden-lg"></i>
+
     </div>
 
-    <div id="navbar" class="visible-lg">
+    <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/dashboard/">Home</a></li>
+        <li class="active"><a href="/dashboard/">Dashboard</a></li>
         <li><a href="#about">Leaderboard</a></li>
-        <li><a href="#contact">Groups</a></li>
+        <li><a href="/groups.php">Groups</a></li>
         <li><a href="#contact">Friends</a></li>
         <li><a href="#contact">Badeges</a></li>
         <li><a href="#contact">Help</a></li>
@@ -32,6 +39,5 @@
         </li>
       </ul>
     </div><!--/.nav-collapse -->
-
-  </div>
+  </div><!--/.container-fluid -->
 </nav>

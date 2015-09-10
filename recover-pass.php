@@ -2,29 +2,6 @@
 // Always include this first
 require dirname(__FILE__).'/functions.php';
 
-// Example of json response data
-$data = array(
-	'people' => array(
-		'Brian',
-		'Anthony',
-		'Chris',
-		'Matt',
-		'Kristen',
-		'Galen',
-		'Stephen',
-	),
-	'places' => array(
-		array(
-			'name' => 'Jackson, WY',
-			'zip' => '83002',
-		),
-		array(
-			'name' => 'Island Park, ID',
-			'zip' => '83429',
-		),
-	),
-);
-
 get_template('header.php', array('title' => 'Landing Page'));
 ?>
 
@@ -40,7 +17,7 @@ get_template('header.php', array('title' => 'Landing Page'));
 					<div class="row">
 
 						<?php
-						// User Profile
+						// User Profile - recover pass
 						get_template('partials/account/recover-pass.php'); ?>
 
 		    		</div> <!-- / row -->

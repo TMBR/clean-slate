@@ -125,6 +125,15 @@ input[type=submit] {
 	}
 }
 
+.small-number {
+	font-size: 2em;
+	font-weight: 400;
+
+	i {
+		margin-left: 20px;
+	}
+}
+
 /* Global Img Style */
 .round {
 	@include border-radius(50%);
