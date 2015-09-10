@@ -7256,6 +7256,22 @@ table .profile-img {
     float: left;
     color: #fff; }
 
+.chart-split {
+  width: 50%;
+  float: left; }
+  .chart-split.doughnut {
+    margin: 20px;
+    position: relative; }
+    .chart-split.doughnut .big-number {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-weight: bold;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
 /* Groups */
 .group-panel {
   border: none; }
