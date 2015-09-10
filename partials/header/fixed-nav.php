@@ -20,9 +20,9 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="/dashboard/">Dashboard</a></li>
         <li><a href="#about">Leaderboard</a></li>
-        <li><a href="/groups.php">Groups</a></li>
-        <li><a href="#contact">Friends</a></li>
-        <li><a href="#contact">Badeges</a></li>
+        <li><a href="/dashboard/groups.php">Groups</a></li>
+        <li><a href="/dashboard/friends.php">Friends</a></li>
+        <li><a href="#contact">Badges</a></li>
         <li><a href="#contact">Help</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

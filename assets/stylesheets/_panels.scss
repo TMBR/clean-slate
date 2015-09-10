@@ -69,7 +69,7 @@
 
 }
 
-/* THermal Map */
+/* Thermal Map */
 #thermal-map {
 	width: 100%;
 
@@ -115,6 +115,61 @@
 		&.streak {
 			background-color: darken( $action-color, 15% );
 		}
+	}
+
+}
+
+/* Friends */
+.friend-container {
+	position: relative;
+	margin: 0 0 15px 0 ;
+	overflow: hidden;
+
+	.friend-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.friend-info {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		background-color: rgba(0,0,0,.8);
+
+		h5 {
+			color: #fff;
+			height: 60px;
+			line-height: 60px;
+			padding: 0 75px 0 15px;
+			margin: 0px;
+
+		}
+	}
+	.friend-action {
+		position: absolute;
+		bottom: 0;
+		right : -60px;
+		display: block;
+		height: 60px;
+		width: 60px;
+		text-align: center;
+		line-height: 60px;
+		background-color: $action-color;
+		cursor: pointer;
+
+		i{
+			color: #fff;
+			font-size: 2em;
+			line-height: 60px;
+		}
+		@include transition($transition300);
+	}
+
+	&:hover {
+		.friend-action {
+			right: 0;
+		}
+
 	}
 
 }
