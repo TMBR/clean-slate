@@ -26,15 +26,11 @@
       <div class="row">
         <div class="col-md-8">
           <div id="linelegend"></div>
-          <canvas id="lineChart" width="800" height="300"></canvas>
-        </div>
-
-        <div class="col-md-4">
-          <canvas id="doughnutChart" width="300" height="300"></canvas>
+          <canvas class="chart" id="lineChart" width="800" height="300"></canvas>
         </div>
 
         <div class="col-md-8">
-          <canvas id="barChart" width="800" height="300"></canvas>
+          <canvas class="chart" id="barChart" width="800" height="300"></canvas>
         </div>
       </div>
     </div><!-- / end panel-body -->

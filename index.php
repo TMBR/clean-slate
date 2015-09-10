@@ -37,6 +37,15 @@ get_template('header.php', array('title' => 'Landing Page'));
 				<?php
 				// User Profile
 				get_template('partials/panels/panel_profile.php'); ?>
+
+				<?php
+				// Thermal map
+				get_template('partials/panels/panel_thermal.php'); ?>
+
+				<?php
+				// Charts
+				get_template('partials/panels/panel_goals.php'); ?>
+
 				<?php
 				// Panel with drop down
 				get_template('partials/panels/panel_dropdown.php'); ?>
@@ -50,17 +59,12 @@ get_template('header.php', array('title' => 'Landing Page'));
 				get_template('partials/panels/panel_badge.php'); ?>
 
 				<?php
-				// Friends List
-				get_template('partials/panels/panel_table.php'); ?>
-
-				<?php
-				// Thermal map
-				get_template('partials/panels/panel_thermal.php'); ?>
-
-
-				<?php
 				// Charts
 				get_template('partials/panels/panel_charts.php'); ?>
+
+				<?php
+				// Friends List
+				get_template('partials/panels/panel_table.php'); ?>
 
 			</div> <!-- / row -->
 		</div><!-- /container -->

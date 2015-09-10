@@ -27,14 +27,7 @@
     };
 
     var linearChartOptions = {
-      ///Boolean - Whether grid lines are shown across the chart
-      scaleShowGridLines : true,
-
-      //String - Colour of the grid lines
-      scaleGridLineColor : "rgba(0,0,0,.05)",
-
-      //Number - Width of the grid lines
-      scaleGridLineWidth : 1,
+      responsive: true,
 
       //Boolean - Whether to show horizontal lines (except X axis)
       scaleShowHorizontalLines: true,
@@ -61,26 +54,25 @@
 
     var doughnutData = [
       {
-        value: 300,
-        color:"#F7464A",
-        highlight: "#FF5A5E",
-        label: "Red"
+        value: 80,
+        color:"#bf2c37",
+        highlight: "#c82430",
+        label: "Open Goals"
       },
       {
-        value: 50,
-        color: "#46BFBD",
-        highlight: "#5AD3D1",
-        label: "Green"
-      },
-      {
-        value: 100,
-        color: "#FDB45C",
-        highlight: "#FFC870",
-        label: "Yellow"
+        value: 20,
+        color: "#bbe300",
+        highlight: "#c5ee06",
+        label: "Complete"
       }
     ]
 
+    var doughnutChartOptions = {
+      responsive: true,
+      percentageInnerCutout : 80
+    };
+
     var doughnutChartElem = document.getElementById("doughnutChart").getContext("2d");
-    var myDoughnutChart = new Chart(doughnutChartElem).Doughnut(doughnutData);
+    var myDoughnutChart = new Chart(doughnutChartElem).Doughnut(doughnutData, doughnutChartOptions);
   })
 })(jQuery);
